@@ -16,3 +16,5 @@ public class ProximityReceiver extends BroadcastReceiver {
     Log.d(TAG, "received proximity alert for region " + id);
     DGGeofencing.getInstance().fireRegionChangedEvent(intent);
 }
+
+}

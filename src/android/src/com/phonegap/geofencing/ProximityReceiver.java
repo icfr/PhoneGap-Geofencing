@@ -53,7 +53,7 @@ public class ProximityReceiver extends BroadcastReceiver {
             String appName = "Test";
 
             mNotificationManager.notify((String) appName, notId, mBuilder.build());
-        
+        }
     }
     
   }
